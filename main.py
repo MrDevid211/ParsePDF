@@ -10,7 +10,7 @@ def pdf_read(pdf_path): #открываем на чтение
     name = get_name(text)
     sector = "WHOLESALES"
     city = get_city(text)
-    sh_holders = 4
+    sh_holders = ""
     ex = get_ex(text)
     url = get_url(text)
     year = get_year(text)
